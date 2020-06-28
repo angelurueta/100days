@@ -32,6 +32,7 @@ while numero <= 20 {
 }
 */
 
+/*
 let colores = ["amarillo" , "azul" , "Rojo" , "Negro" , "Blanco"]
 var contador = 0
 while contador < 5 {
@@ -46,4 +47,57 @@ while number > 0 {
     }
 }
 
+*/
 
+//REAPEAR 27/6/2020
+/*
+var number = 1
+
+repeat {
+    print (number)
+    number += 1
+} while number <= 20
+
+print ("Finalizado")
+*/
+
+//Exiting Loops
+/*var Count = 10
+while Count >= 0 {
+    print(Count)
+    Count-=1
+    if Count == 9 {
+        break
+    }
+}
+*/
+//EXITING MULTIPLE LOOPS 28/06/2020
+/*outerLoop: for i in 1...10 {
+    innerLoop: for j in 1...10 {
+        let product = i*j
+        print ("\(i) * \(j) es \(product)")
+        
+        if product == 50 {
+            print ("Es suficiente")
+            break outerLoop
+        }
+    }
+}*/
+//SKIPING ITEMS
+/*
+Loops: for i in 1...10 {
+    if i%2 == 1{
+        continue
+    }
+    print (i)
+}
+ */
+//INFINITE LOOPS
+var counter = 0
+while true {
+    counter += 1
+    print (counter)
+    if counter == 273 {
+        break
+    }
+}
