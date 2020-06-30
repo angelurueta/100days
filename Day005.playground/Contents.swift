@@ -79,3 +79,23 @@ do {
 } catch {
     print("No puede usar ese password")
 }
+
+func doubleInPlace (number : inout Int) {
+    number *= 2
+}
+
+var myNum = 10
+doubleInPlace(number: &myNum)
+myNum
+
+
+func sumOfFactors(for number: Int) -> Int {
+    var sum = 0
+    for i in 1...number {
+        if number % i == 0 {
+            sum += i
+        }
+    }
+    return sum
+}
+let sum = sumOfFactors(for: 100)
